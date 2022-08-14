@@ -12,6 +12,7 @@ export const createEnv = (
 			path.join(projectPath, ".env")
 		);
 		for (const [key, value] of Object.entries(apiKeys)) {
+			if (key === "private_key" && exposed) continue;
 			writeStream.write(
 				exposed
 					? `NEXT_PUBLIC_${key.toUpperCase()}= ${value}\n`
