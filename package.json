@@ -23,7 +23,7 @@
 		"lint": "eslint . --ext .ts && prettier --write .",
 		"clean": "rimraf dist",
 		"start": "parcel index.html",
-		"build": "parcel build ./dist/index.js"
+		"build": "npm run clean && npx tsc"
 	},
 	"bin": {
 		"create-web3-dapp": "./dist/index.js"
