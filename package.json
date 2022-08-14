@@ -20,7 +20,7 @@
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"lint": "eslint . --ext .ts && yarn prettier --write .",
+		"lint": "eslint . --ext .ts && prettier --write .",
 		"start": "parcel index.html",
 		"build": "parcel build ./dist/index.js"
 	},
@@ -49,7 +49,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/eversmile12/create-web3-dapp.git"
-	  },
-	  "homepage": "https://github.com/Eversmile12/create-web3-dapp/blob/main/README.md"
-
+	},
+	"homepage": "https://github.com/Eversmile12/create-web3-dapp/blob/main/README.md"
 }
