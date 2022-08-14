@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Panel } from "./components/panels";
-import { Section } from "./layout/section";
+import { Panel } from "../components/panels";
+import { Section } from "../layout/section";
 
 export default function Home() {
 	return (

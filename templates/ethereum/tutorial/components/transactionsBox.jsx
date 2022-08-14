@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../../styles/TransactionBox.module.css";
+import styles from "../styles/TransactionBox.module.css";
 import { BigNumber } from "ethers";
 export const TransactionsBox = ({ alchemy }) => {
 	const [transactions, setTransactions] = useState([]);

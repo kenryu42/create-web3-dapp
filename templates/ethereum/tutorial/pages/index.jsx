@@ -3,10 +3,10 @@ import styles from "../styles/Home.module.css";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Network, Alchemy } from "alchemy-sdk";
 import { useAccount } from "wagmi";
-import { NFTGallery } from "./components/nftGallery";
-import { TransactionsBox } from "./components/transactionsBox";
-import { Panel } from "./components/panels";
-import { Section } from "./layout/section";
+import { NFTGallery } from "../components/nftGallery";
+import { TransactionsBox } from "../components/transactionsBox";
+import { Panel } from "../components/panels";
+import { Section } from "../layout/section";
 
 export default function Home() {
 	const { address, isConnected } = useAccount();

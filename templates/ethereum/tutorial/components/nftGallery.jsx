@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "../../styles/NFTGallery.module.css";
+import styles from "../styles/NFTGallery.module.css";
 import { NFTCard } from "./nftCard";
 export const NFTGallery = ({ alchemy, address }) => {
 	const [NFTs, setNFTs] = useState();

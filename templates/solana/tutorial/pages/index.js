@@ -1,11 +1,12 @@
+require("@solana/wallet-adapter-react-ui/styles.css");
+
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Panel } from "./components/panels";
-import { Section } from "./layout/section";
+import { Panel } from "../components/panels";
+import { Section } from "../layout/section";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-require("@solana/wallet-adapter-react-ui/styles.css");
 import { useEffect, useState } from "react";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import * as web3 from "@solana/web3.js";

@@ -1,4 +1,4 @@
-import styles from "../../styles/Panel.module.css";
+import styles from "../styles/Panel.module.css";
 export const Panel = () => {
 	return (
 		<div className={styles.panel_container}>
