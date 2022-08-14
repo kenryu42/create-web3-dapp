@@ -21,6 +21,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint . --ext .ts && prettier --write .",
+		"clean": "rimraf dist",
 		"start": "parcel index.html",
 		"build": "parcel build ./dist/index.js"
 	},
@@ -44,6 +45,7 @@
 		"fs-extra": "^10.1.0",
 		"parcel-bundler": "^1.12.5",
 		"prompts": "^2.4.2",
+		"rimraf": "^3.0.2",
 		"typescript": "^4.7.4"
 	},
 	"repository": {
